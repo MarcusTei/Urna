@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    background-color: #aaaa;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+
+.mainLeft {
+    margin-top: 7rem;
+    height: 44rem;
+    width: 60rem;
+    border-radius: 1rem;
+    background-color: rgb(128, 128, 128);
+}
+
+#mainImg {
+    position: absolute;
+    top: 7rem;
+    left: 6rem;
+    height: 45rem;
+    border-radius: 1rem;
+}
+
+.voteDisplay {
+    padding: 3rem;
+}
+
+.voteData {
+    color: white;
+}
+
+.voteData > p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.voteData > h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem 0 2rem 4rem;
+}
+
+.voteData > label {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.voteData input {
+    border: 1.5px solid rgb(100, 100, 100);
+    background: none;
+    width: 4rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.candidatePhoto {
+    height: 20rem;
+    display: none;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 1rem;
+}
+
+.candidateName {
+    display: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500 !important;
+}
+
+.mainRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 3rem 3rem 0;
+}
+
+.title {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 40rem;
+    justify-content: space-evenly;
+}
+
+.title > h1 {
+    font-size: 2rem;
+}
+
+.keyboard {
+    padding: 2.5rem;
+}
+
+.voteBtns {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+
+.numberBtn {
+    text-align: left;
+    border: 1px solid #1C1C1C;
+    border-radius: 0.5rem;
+    font-size: 4rem;
+    color: white;
+    width: 8rem;
+    background: linear-gradient(to bottom, #333333 90%, #1C1C1C 10%);
+    padding-left: 1rem;
+}
+
+.keyboard {
+    background-color: #333333;
+    width: 40rem;
+    border-radius: 0.5rem;
+}
+
+.keyboardSubmit {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deleteBtn {
+    text-align: center;
+    border: 1px solid #C04000;
+    border-radius: 0.5rem;
+    color: rgb(221, 221, 221);
+    width: 10rem;
+    background: linear-gradient(to bottom, rgb(255, 95, 21) 90%, #C04000 10%);
+    height: 4.5rem;
+}
+
+.submitBtn {
+    text-align: center;
+    border: 1px solid #2E8B57;
+    border-radius: 0.5rem;
+    color: rgb(221, 221, 221);
+    width: 10rem;
+    background: linear-gradient(to bottom, #2dad64 90%, #2E8B57 10%);
+    height: 4.5rem;
+}
+
+.deteleBtn:active {
+    background-color: rgb(255, 95, 21);
+}
+
+.keyboard:hover button {
+    cursor: pointer;
+}
+
+.numberBtn:active {
+    background: #333333;
+}

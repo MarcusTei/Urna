@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    background-color: #aaaa;
+}
+
+#dashboard {
+    display: flex;
+    width: 90vw;    
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1.5rem;
+}
+
+.candidatePhoto {
+    height: 20rem;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 1rem;
+}
+
+.candidate {
+    display: flex;
+    gap: 1rem;
+}
+
+.candidateInformation {
+    display: flex;
+    flex-direction: column;
+}
+
+.candidateInformation > p {
+    font-size: 1.5rem;
+}
